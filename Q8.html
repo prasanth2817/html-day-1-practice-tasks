@@ -9,16 +9,18 @@
     <div><h3>Use the table tag to design given image.</h3></div>
     <div>
         <table border="1">
+        <thead>
             <tr>
-            <td>State of Health</td>
-            <td>Fasting value<td>
-            <td>After Eating</td>
+            <th rowspan="2">State of Health</th>
+            <th colspan="2">Fasting value</th>
+            <th>Aftereating</th>
+             <tr>
+             <th>minimum</th>
+             <th>maximum</th>
+             <th>2 hours after eating</th>
             </tr>
-            <tr>
-             <td>minimum</td>
-             <td>maximum</td>
-             <td>2 hours after</td>
-            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>Health</td>
                 <td>70</td>
@@ -37,6 +39,7 @@
                 <td>N/A</td>
                 <td>More Than 200</td>
             </tr>
+            </tbody>
         </table>
     </div>
 </body>
